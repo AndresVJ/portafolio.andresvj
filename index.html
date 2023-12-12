@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio.andresvj</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,500;1,300&family=Exo:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">AVJ</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <h1>Andres Vasquez Juape</h1>
+            <h2>Desarrollador Front-End</h2>
+            <div class="redes">
+                <a href="https://mail.google.com/mail/u/1/#inbox"><i class="fas fa-square-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/andres-vj-619570282/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="Wa.me/954860287"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://github.com/AndresVJ"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="sobremi_title">
+                Sobre mí:
+            </h2>
+            <h3 class="sobremi_text">
+                Hola soy Andres Vasquez, un desarrollador frontend junior y para resolver distintos problemas haciendo uso de tecnologias en las cuales tengo experiencia, las cuales son: JavaScript, HTML, CSS y React.js.
+            </h3>
+            <button>
+            <a href="https://drive.google.com/file/d/1XhfxwTaljy4NCErCiL01gG63UpD1qqM-/view?usp=drive_link"> Descargar CV</a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <section class="skills" id="skills">
+        <div class="skills-container">
+            <h2 class="title-skills">Habilidades</h2>
+            <div>
+                <!-- Soft skills -->
+                <div class="soft-content">
+                    <h3 class="title-soft">Habilidades Blandas</h3>
+                    
+                        <ul>
+                            <li class="soft-item">Comunicación efectiva</li>
+                            <li class="soft-item">Aprendizaje continuo y adaptabilidad</li>
+                            <li class="soft-item">Trabajo en equipo</li>
+                            <li class="soft-item">Planificación y gestión de tiempo</li>
+                        </ul>
+                
+                </div>
+                <!-- Hard skills -->
+                <div class="hard-content">
+                    <h3 class="title-hard">Habilidades Duras</h3>
+                    <div>
+                        <div class="hard-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="hard-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="hard-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="hard-item">
+                            <i class="fab fa-react"></i>
+                            <span>React.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portafolio" class="portfolio">
+        <div class="contenido-portfolio">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="imgs/Captura de pantalla 2023-12-07 053652.png" alt="">
+                    <div class="overlay">
+                        <h3>App de Rick y Morty</h3>
+                        <p>Tecnologías Usadas:</p>
+                        <p>React, JavaScript, HTML y CSS</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imgs/Captura de pantalla 2023-12-07 053739.png" alt="">
+                    <div class="overlay">
+                        <h3>Aplicación de clima</h3>
+                        <p>Tecnologías Usadas:</p>
+                        <p>React, JavaScript, HTML y CSS</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="imgs/Captura de pantalla 2023-12-07 053851.png" alt="">
+                    <div class="overlay">
+                        <h3>Pokedex</h3>
+                        <p>Tecnologías Usadas:</p>
+                        <p>React, JavaScript, HTML y CSS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fas fa-angle-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://mail.google.com/mail/u/1/#inbox"><i class="fas fa-square-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/andres-vj-619570282/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="Wa.me/954860287"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://github.com/AndresVJ"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>
